@@ -1,0 +1,73 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Set background color to black */
+    margin: 0;
+    padding: 20px;
+    color: white; /* Ensure default text is visible on black background */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #fff; /* White text for the header */
+}
+
+/* Chatbox styling */
+#chatbox {
+    background-color: #333; /* Dark background for chatbox */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    height: 300px;
+    overflow-y: scroll;
+    color: white; /* Ensure chat text is visible */
+}
+
+/* User message styling */
+.user-message {
+    background-color: #4CAF50; /* Green background for user messages */
+    color: white; /* White text for user messages */
+    font-family: 'Courier New', Courier, monospace; /* Different font for user messages */
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+/* Bot message styling */
+.bot-message {
+    background-color: #1E90FF; /* Blue background for bot messages */
+    color: white; /* White text for bot messages */
+    font-family: 'Arial', sans-serif; /* Default font for bot messages */
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Input and button styling */
+input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #222; /* Dark background for the input field */
+    color: white; /* White text for the input field */
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
