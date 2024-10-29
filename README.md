@@ -62,7 +62,3 @@ This chatbot can be deployed in various environments such as:
 
 
 https://github.com/user-attachments/assets/fe2d3ce9-ffdc-4476-a5d4-63f55333c9d2
-
-
-Check out a video walkthrough of the chatbot in action:  
-[![Watch the video]([[https://img.youtube.com/vi/your_video_id/maxresdefault.jpg](https://www.linkedin.com/posts/tobiloba-oluwadamilare-a850b0223_chatbot-transferlearning-machinelearning-activity-7246428122676346880-fwco?utm_source=share&utm_medium=member_desktop))]([https://www.youtube.com/watch?v=your_video_id](https://www.linkedin.com/posts/tobiloba-oluwadamilare-a850b0223_chatbot-transferlearning-machinelearning-activity-7246428122676346880-fwco?utm_source=share&utm_medium=member_desktop)](https://www.linkedin.com/posts/tobiloba-oluwadamilare-a850b0223_chatbot-transferlearning-machinelearning-activity-7246428122676346880-fwco?utm_source=share&utm_medium=member_desktop))
