@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to T.Biggest Customer Care Chatbot</title>
+    {% load static %}  <!-- Load the static template tag -->
+    <link rel="stylesheet" href="{% static 'chatbot/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to T.Biggest Customer Care Chatbot</h1>
+    </header>
+    <main>
+        <div id="chatbox">
+            <!-- Chat messages will go here -->
+        </div>
+        <input type="text" id="user_input" placeholder="Type your message here...">
+        <button id="send_button">Send</button>
+    </main>
+    <script>
+        document.getElementById('send_button').onclick = function() {
+            let user_input = document.getElementById('user_input').value;
+            // AJAX call to chatbot_response_view
+            fetch('/chatbot_response/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                    'X-CSRFToken': '{{ csrf_token }}', // CSRF token for security
+                },
+                body: 'user_input=' + encodeURIComponent(user_input),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Append the response to chatbox
+                let chatbox = document.getElementById('chatbox');
+                chatbox.innerHTML += '<div>User: ' + user_input + '</div>';
+                chatbox.innerHTML += '<div>' + data.response + '</div>';
+                document.getElementById('user_input').value = '';
+            });
+        };
+    </script>
+</body>
+</html>
