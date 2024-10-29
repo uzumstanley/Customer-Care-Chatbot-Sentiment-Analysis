@@ -1,6 +1,6 @@
-# T.Biggest Customer Care Chatbot
+# Customer Care Chatbot
 
-**T.Biggest Customer Care Chatbot** is an AI-driven chatbot designed to handle customer inquiries efficiently and provide personalized responses. This project integrates natural language processing (NLP) models for sentiment analysis and text generation, allowing the chatbot to understand customer emotions and respond appropriately. It is built using Django and leverages cutting-edge deep learning models from Hugging Face.
+**Customer Care Chatbot** is an AI-driven chatbot designed to handle customer inquiries efficiently and provide personalized responses. This project integrates natural language processing (NLP) models for sentiment analysis and text generation, allowing the chatbot to understand customer emotions and respond appropriately. It is built using Django and leverages cutting-edge deep learning models from Hugging Face.
 
 ## Table of Contents
 
